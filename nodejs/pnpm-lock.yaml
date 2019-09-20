@@ -1,0 +1,12 @@
+dependencies:
+  native-messaging: 1.0.0
+lockfileVersion: 5.1
+packages:
+  /native-messaging/1.0.0:
+    dev: false
+    engines:
+      node: '>=4.0.0'
+    resolution:
+      integrity: sha512-9L4ntTIbNdEbBIrWxc0yxrxWwncL3O+tqcVZcIZf86S8m8SjB5wTyFCpKha2NSmuYbfhCYoP1liPJwzey4Bucg==
+specifiers:
+  native-messaging: ^1.0.0
