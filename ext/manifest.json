@@ -1,0 +1,28 @@
+{
+	"manifest_version": 2,
+	"name": "Синхронизатор вводимого текста",
+	"short_name": "ФБ синхронизатор",
+	"version": "1.0.0",
+	"description": "Расширение для автоматического ввода текста из файла",
+	"background": {
+		"page": "background/index.html"
+	},
+	"browser_action": {
+		"name": "ФБ синхронизатор",
+		"default_icon": {
+			"19": "icons/icon_recruit_mirapolis_19.png",
+			"38": "icons/icon_recruit_mirapolis_38.png"
+		},
+		"default_popup": "popup/index.html"
+	},
+	"content_security_policy": "script-src 'self'; object-src 'self'",
+	"permissions": [
+		"nativeMessaging",
+		"activeTab"
+	],
+	"icons": {
+		"16": "icons/icon_recruit_mirapolis_16.png",
+		"48": "icons/icon_recruit_mirapolis_48.png"
+	},
+	"options_page": "options/index.html"
+}
