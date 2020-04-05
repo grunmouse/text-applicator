@@ -1,0 +1,24 @@
+start app
+read
+input 4
+read
+input 6
+msg "ping"
+req ping
+res "pong"
+read
+input 4
+read
+input 6
+msg "ping"
+req ping
+res "pong"
+read
+input 4
+read
+input 6
+msg "ping"
+req ping
+res "pong"
+read
+input 0
