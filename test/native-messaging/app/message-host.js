@@ -1,3 +1,5 @@
+//var log = require('fs').createWriteStream('log.txt');
+
 
 function host(handleMessage){
 	var incoming, dataLen;
@@ -13,6 +15,7 @@ function host(handleMessage){
 		
 		if(!dataLen){
 			dataLen = input.readUInt32LE(0);
+			//log.write(`dataLen ${dataLen}\n`);
 			if(input.length > 4){
 				incoming = input.slice(4);
 			}

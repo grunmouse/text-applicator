@@ -3,5 +3,6 @@
   "description": "Example host for native messaging",
   "path": "E:\\repo\\text-applicator\\test\\native-messaging\\app\\ping_pong_win.bat",
   "type": "stdio",
+  "allowed_origins" : ["chrome-extension://maaiflmcgekoflnkiamalhbephhkceno/"],
   "allowed_extensions": [ "ping_pong@example.org" ]
 }
